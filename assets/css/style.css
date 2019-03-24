@@ -1,4 +1,6 @@
-h1, h2 {
+/* Universal Formatting */
+
+h1, h2, .portfoliolabel {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -12,7 +14,8 @@ footer, body {
 
 body {
     background-image: url("../images/dynamic-style.png");
-    margin: 0;
+    margin: 0 0 50px 0;
+    height: 100%;
 }
 
 #navbar {
@@ -47,30 +50,16 @@ li a {
     padding-top: 30px;
 }
 
+#indexlink, #portfoliolink {
+    border-right: 1px solid #dddddd;
+}
+
 
 #name {
     color: white;
     background-color: #4aaaa5;
     margin-bottom: 0;
     padding: 20px;
-}
-
-.content {
-    max-width: 960px;
-    margin: auto;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    margin-top: 20px;
-}
-
-.maintext {
-    padding: 20px;
-}
-
-img {
-     float:left;
-     margin-right: 20px;
-     margin-bottom: 20px;
 }
 
 p {
@@ -98,4 +87,76 @@ hr {
     height: 50px;
     border-top: 8px solid #4aaaa5;
     line-height: 75px;
+}
+
+/* About Me Specific Styling */
+
+#aboutcontent {
+    max-width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+
+#abouttext {
+    padding: 20px;
+}
+
+#myimage {
+     float:left;
+     margin-right: 20px;
+     margin-bottom: 20px;
+}
+
+/* Portfolio Specific Styling */
+
+#portfoliocontent {
+    max-width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    height: 850px;
+}
+
+#portfoliotext {
+    padding: 20px;
+}
+
+
+.portfolioimage {
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+
+.portfoliolabel {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 275px;
+}
+
+/* Contact Specific Styling */
+
+#contactcontent {
+    max-width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+#contacttext {
+    padding: 20px;
 }
