@@ -142,7 +142,6 @@ a:hover {
 }
 
 .portfoliolabel {
-    color: white;
     background-color: #4aaaa5;
     position: absolute;
     bottom: 30px;
@@ -151,6 +150,7 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 275px;
+    font-size: 18px;
 }
 
 /* Contact Specific Styling */
